@@ -10,6 +10,8 @@ Url:		https://github.com/matplotlib/cycler
 Source0:	https://github.com/matplotlib/cycler/releases/%{oname}-%{version}.tar.gz
 BuildRequires:	pkgconfig(python2)
 BuildRequires:	pkgconfig(python3)
+BuildRequires:	python-setuptools
+BuildRequires:	python2-setuptools
 BuildArch:	noarch
 
 Provides:	%{oname} = %{version}-%{release}
