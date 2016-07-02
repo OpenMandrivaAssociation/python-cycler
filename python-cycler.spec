@@ -2,12 +2,12 @@
 
 Summary:	Cycler python bindings
 Name:		python-%{oname}
-Version:	0.9.0
+Version:	0.10.0
 Release:	1
 License:	LGPLv2
 Group:		Development/Python
 Url:		https://github.com/matplotlib/cycler
-Source0:	https://github.com/matplotlib/cycler/releases/%{oname}-%{version}.tar.gz
+Source0:	https://github.com/matplotlib/cycler/archive/v%{version}.tar.gz
 BuildRequires:	pkgconfig(python2)
 BuildRequires:	pkgconfig(python3)
 BuildRequires:	python-setuptools
