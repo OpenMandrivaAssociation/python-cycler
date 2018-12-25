@@ -47,8 +47,9 @@ PYTHONDONTWRITEBYTECODE=1 python2 setup.py install --root=%{buildroot}
 %files
 %python3_sitelib/cycler.py
 %python3_sitelib/cycler-%{version}-py%py3ver.egg-info
+%python3_sitelib/__pycache__/cycler*
 
 %files -n python2-%oname
-%python2_sitelib/cycler.py
+%python2_sitelib/cycler.py*
 %python2_sitelib/cycler-%{version}-py%py2ver.egg-info
 
