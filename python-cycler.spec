@@ -28,7 +28,7 @@ This package includes Python 2 bindings for cycler.
 
 %prep
 %setup -qn %{oname}-%{version}
-%apply_patches
+%autopatch -p1
 
 cp -a . %py2dir
 
