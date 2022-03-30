@@ -3,7 +3,7 @@
 Summary:	Cycler python bindings
 Name:		python-%{oname}
 Version:	0.11.0
-Release:	1
+Release:	2
 License:	LGPLv2
 Group:		Development/Python
 Url:		https://github.com/matplotlib/cycler
@@ -47,7 +47,6 @@ PYTHONDONTWRITEBYTECODE=1 python2 setup.py install --root=%{buildroot}
 %files
 %python3_sitelib/cycler.py
 %python3_sitelib/cycler-%{version}-py%py3ver.egg-info
-%python3_sitelib/__pycache__/cycler*
 
 %files -n python2-%oname
 %python2_sitelib/cycler.py*
