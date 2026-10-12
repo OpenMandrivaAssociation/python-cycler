@@ -3,7 +3,7 @@
 Summary:	Cycler python bindings
 Name:		python-cycler
 Version:	0.12.1
-Release:	1
+Release:	2
 License:	BSD-3-Clause
 Group:		Development/Python
 Url:		https://github.com/matplotlib/cycler
